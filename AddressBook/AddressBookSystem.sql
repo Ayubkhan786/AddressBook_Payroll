@@ -55,3 +55,5 @@ SELECT * FROM Addressbook;
 UPDATE AddressBook Set Type = 'Friend' WHERE FirstName = 'Ayub' or FirstName = 'Nithish' ;
 UPDATE AddressBook Set Type = 'Family' WHERE FirstName = 'Vijay';
 SELECT * From Addressbook WHERE Type = 'Friend';
+
+SELECT COUNT (Type) From Addressbook WHERE Type = 'Friend';
